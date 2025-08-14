@@ -2,7 +2,6 @@ import face_recognition
 import argparse
 import pickle
 import cv2
-import numpy
 
 # Load command line arguments
 ap = argparse.ArgumentParser()
@@ -30,7 +29,6 @@ names = []
 for encoding in inputImageEncodings:
     matches = face_recognition.compare_faces(encodingData["encodings"], encoding)
     name = "Unknown"
-    print(matches)
 
     if True in matches:
         matchedIndexes = [i for (i, b) in enumerate(matches) if b]
