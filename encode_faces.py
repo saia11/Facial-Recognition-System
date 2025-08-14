@@ -34,7 +34,7 @@ for (index, imagePath) in enumerate(imagePaths):
     encodings = face_recognition.face_encodings(imageRGB, boxes)
 
     for encoding in encodings:
-        knownEncodings.append(encodings)
+        knownEncodings.append(encoding)
         knownNames.append(name)
 
 # Need to store encodings in an encoding file
