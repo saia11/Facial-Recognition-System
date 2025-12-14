@@ -64,7 +64,7 @@ Python packages:
 ### 1) Clone the repository
 
 ```bash
-git clone [<your-repo-url>](https://github.com/saia11/Facial-Recognition-System.git)
+git clone https://github.com/saia11/Facial-Recognition-System.git
 cd Facial-Recognition-System
 ```
 
