@@ -186,8 +186,6 @@ python -m pip install --upgrade pip setuptools wheel
 
 - On some systems, installing build tools (e.g., CMake / compiler toolchain) may be required.
 
-If you want this README to be extremely beginner-friendly, consider adding OS-specific instructions (Windows/macOS/Linux) once you confirm your target audience.
-
 ---
 
 ## Future Improvements
@@ -200,7 +198,7 @@ If you want this README to be extremely beginner-friendly, consider adding OS-sp
 
 ## License
 
-Add a license file (e.g., MIT) if you plan to share this publicly.
+MIT
 
 ---
 
