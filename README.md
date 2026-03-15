@@ -119,23 +119,11 @@ Tips:
 ## Encoding Known Faces
 
 You need to compute face encodings for your known dataset once (or whenever you change the dataset).  
-How you do this depends on your scripts. Common patterns are:
 
-### Option A: If you have a separate encoding script (recommended)
-Run something like:
 
 ```bash
 python encode_dataset.py --dataset dataset --output encodings/known_encodings.pkl
 ```
-
-### Option B: If `facial_recognition.py` supports an “encode” mode
-Run:
-
-```bash
-python facial_recognition.py --dataset dataset --save-encodings encodings/known_encodings.pkl
-```
-
-If your repository only has one script, consider adding a small `encode_dataset.py` so users can generate encodings without running recognition each time.
 
 ---
 
